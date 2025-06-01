@@ -2,7 +2,7 @@ name: Trigger Private Repo Job
 
 on:
   schedule:
-    - cron: '07 19 * * *'  # 18:00 Israel time (UTC+3)
+    - cron: '07 16 * * *'  # 19:07 Israel time (UTC+3)
   workflow_dispatch:
 
 jobs:
